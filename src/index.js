@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./styles/index.css";
+import App from "./components/App";
+import { location } from "./data/forecast.json";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Weather App</h1>
+    <App location={location} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-
