@@ -11,11 +11,9 @@ const ForecastDetails = ({ forecast }) => {
       </div>
       <div className="forecast-details__temperature-min">
         {`Min Temp: ${temperature.min}\u00b0c`}
-        &deg;C
       </div>
       <div className="forecast-details__temperature-max">
         {`Max Temp: ${temperature.max}\u00b0c`}
-        &deg;C
       </div>
       <div className="forecast-details__humidity">{`Humidity: ${humidity}%`}</div>
       <div className="forecast-details__wind">{`Wind Speed: ${wind.speed}mph`}</div>
